@@ -1,0 +1,64 @@
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+
+.container {
+    color: #6a6a6a;
+    font: 16px mouse-300 Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+  .right-side {
+    padding: 8px;
+    width: 70%;
+  }
+
+  .left-side {
+    width: 30%;
+background-color: bisque;
+  }
+
+  .profile-photo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    border-radius: 20px;
+
+  }
+  .contacts {
+    position: absolute;
+    top: 450px;
+    left: 35px;
+  }
+
+  .languages {
+    position: absolute;
+    top: 630px;
+    left: 35px;
+  }
+
+  .hobbies {
+    position: absolute;
+    top: 780px;
+    left: 35px;
+  }
+  footer {
+    border: 2px;
+border-radius: 20px;
+
+  }
+  .footer-part {
+    list-style: none;
+    display: inline-block; 
+  }
+  a {
+    text-decoration: none;
+    color: #6a6a6a;
+   }
+  
+
