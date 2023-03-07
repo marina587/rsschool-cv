@@ -7,6 +7,7 @@
 My Address
 ---------
 marysechka-2009@mail.ru
+tarasevich.mmarina@yandex.ru
 
 Minsk
 Belarus
