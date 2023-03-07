@@ -10,7 +10,7 @@ marysechka-2009@mail.ru
 
 Minsk
 Belarus
-+375 29 136 45 21
++375 29 136 45 21 (Viber, Telegram)
 -------------------     ----------------------------
 
 Education
