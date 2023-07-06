@@ -34,6 +34,10 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Inika', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -45,6 +49,7 @@ ol {
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a {
   text-decoration: none;
+  color: black;
 }
 
 /* Упрощаем работу с изображениями */
@@ -68,17 +73,25 @@ select {
 
 
 body {
+    background-color: azure;
+}
+
+p, li {
+    color: grey;
 }
 
 header {
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    scroll-behavior: smooth;
+
 }
 
 .wrapper {
@@ -90,13 +103,20 @@ justify-content: space-between;
 }
 
 .contact_information {
-    background-color: aqua;
+    background-color: rgb(184, 224, 224);
     max-width: 30%;
+    padding-left: 10px;
 }
 
 .avatar img {
     border-radius: 50%;
-  
+    margin-left: -5px;
+}
+
+.hobbies_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 
@@ -111,9 +131,23 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 a img {
     width: 50px;
     height: 50px;
+}
+
+.skills_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.working::before {
+    content: "\261D";
+    transform: rotate(90deg);
 }
